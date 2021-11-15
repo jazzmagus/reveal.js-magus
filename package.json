@@ -13,8 +13,8 @@
     "build": "gulp build"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
+    "name": "Diego Fantinelli",
+    "email": "hdiego.fantinelli@gmail.com",
     "web": "https://hakim.se"
   },
   "repository": {
