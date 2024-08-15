@@ -21,31 +21,21 @@ $headingColor: #383D3D;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $backgroundColor: #F0F1EB;
-$linkColor: #f38804;
+$linkColor: #51483D;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: #26351C;
+
+$overlayElementBgColor: 0, 0, 0;
+$overlayElementFgColor: 240, 240, 240;
 
 .reveal a {
   line-height: 1.3em;
 }
 
-
 // Change text colors against dark slide backgrounds
 @include dark-bg-text-color(#fff);
 
-.multiCol {
-  display: table;
-  table-layout: fixed; // don't fudge depending on content
-  width: 90%;
-  text-align: left; // matter of taste, makes imho sense
-  .col {
-      display: table-cell;
-      vertical-align: top;
-      width: 50%;
-      padding: 2% 0 2% 3%; // some vertical, and between columns
-      &:first-of-type { padding-left: 0; } // there's nothing before col1
-  }
-}
+
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
