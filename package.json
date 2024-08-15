@@ -41,16 +41,16 @@
     "core-js": "^3.12.1",
     "fitty": "^2.3.0",
     "glob": "^7.1.7",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-connect": "^5.7.0",
     "gulp-eslint": "^6.0.0",
-    "gulp-header": "^2.0.9",
+    "gulp-header": "^1.8.9",
     "gulp-tap": "^2.0.0",
     "gulp-zip": "^4.2.0",
     "highlight.js": "^10.0.3",
-    "marked": "^2.0.3",
+    "marked": "^14.0.0",
     "node-qunit-puppeteer": "^2.0.1",
     "qunit": "^2.10.0",
     "rollup": "^2.48.0",
@@ -101,6 +101,6 @@
     "material-design-icons": "^3.0.1",
     "reveal.js-notes-pointer": "^0.1.4",
     "reveal.js-tableofcontents": "^1.0.1",
-    "update": "^0.7.4"
+    "update": "^0.4.2"
   }
 }
